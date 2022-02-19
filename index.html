@@ -8,34 +8,51 @@
   
   <title>Frontend Mentor | Four card feature section</title>
 
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
+  <header class="container text-center">
+    <h1> <span class="no-bold">Reliable, efficient delivery</span>  <br> Powered by Technology</h1>
+    <p>Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</p>
+  </header>
   
-  Reliable, efficient delivery
-  Powered by Technology
+  <main class="container">
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+    <div class="col-1">
+      <section class="card supervisor">
+        <h2>Supervisor</h2>
+        <p>Monitors activity to identify project roadblocks</p>
+        <div class="card-icon"><img src="images/icon-supervisor.svg" alt=""></div>
+      </section>
+    </div>
+    
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
+    <div class="col-2">
+      <section class="card team-builder">
+        <h2>Team Builder</h2>
+        <p>Scans our talent network to create the optimal team for your project</p>
+        <div class="card-icon"><img src="images/icon-team-builder.svg" alt=""></div>
+      </section>
   
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <section class="card karma">
+        <h2>Karma</h2>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <div class="card-icon"><img src="images/icon-karma.svg" alt=""></div>
+      </section>
+    </div>
+
+    <div class="col-3">
+      <section class="card calculator">
+        <h2>Calculator</h2>
+        <p>Uses data from past projects to provide better delivery estimates</p>
+        <div class="card-icon"><img src="images/icon-calculator.svg" alt=""></div>
+      </section>
+    </div>
+
+  </main>
+  
 </body>
 </html>
